@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Turismo reponsive website build using HTML5, CSS3 and Javascript. The complete layout of the page is build using grid layout and flexbox with some cool animations"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="stylesheet" href="font/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <title>Turismo - Explore the world</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="navigation">
+          <div>TOURISM PLACES IN TRICHY CITY</div>
+          <img
+            src="img/nav-icon.svg"
+            class="nav-icon"
+            alt="navigation icon"
+            width="30"
+            height="30"
+          />
+          <ul>
+            <li>
+              <a href="#home"> Home </a>
+            </li>
+            <li>
+              <a href="#about"> About </a>
+            </li>
+            <li>
+              <a href="#tours"> Tours </a>
+            </li>
+            <li>
+              <a href="#offers"> Offers </a>
+            </li>
+            <li>
+              <button class="btn">Book Now</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- SECTION HERO -->
+      <section class="section-hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="heading heading--1 margin-bottom">
+              life is short and world is wide the sooner you start exploring it
+              the better
+            </h1>
+            <button class="btn">Explore now</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION SEARCH -->
+      <section class="section-search">
+        <div class="container search-box">
+          <div class="wrapper">
+            <h3>Destination</h3>
+            <div class="custom-select">
+              <select>
+                <option value="england">Butterfly Park</option>
+                <option value="france">Makkombu</option>
+                <option value="italy">Sri Ranga Nathaswamy Temple</option>
+                <option value="india">St. Joseph's Church</option>
+                <option value="india">Samayapuram Amman Temple</option>
+                <option value="maldives">Rockfort Ganpathi Temple</option>
+                <option value="maldives">Kallanai Dam</option>
+              </select>
+              <span class="arrow"></span>
+            </div>
+          </div>
+
+          <div class="wrapper">
+            <h3>Date</h3>
+            <div class="custom-date">
+              <input type="date" id="date" />
+              <img src="./img/calendar.svg" alt="" class="calender-icon" />
+            </div>
+          </div>
+
+        <!--<div class="wrapper">
+            <h3>Average Price</h3>
+            <div class="custom-select">
+              <select>
+                <option value="$200">Rs100 - Rs150</option>
+                <option value="$500">Rs150 - Rs200</option>
+                <option value="$1000">Rs200 - Rs200</option>
+              </select>
+              <span class="arrow"></span>
+            </div>
+          </div>-->
+          <button class="btn">Search</button>
+        </div>
+      </section>
+
+      <!-- SECTION ABOUT -->
+      <section class="section-about" id="about">
+        <div class="container about-box" data-aos="fade-up">
+          <div class="about-box__heading">
+            <h3 class="color-blue margin-bottom">About us</h3>
+            <div class="heading heading--1 capitalize">
+              Explore all corners of the world with us
+            </div>
+          </div>
+          <div class="about-box__content">
+            <p class="margin-bottom">
+              Woraiyur , a part of present day Tiruchirappalli, was the capital city of Cholas from 300 B.C. onwards. This is supported by archaeological evidences and ancient literatures. There are also literary sources which tell that Woraiyur continued to be under the control of Cholas even during the days of Kalabhra interregnum (A.D. 300 – 575).Later, Woraiyur along with the present day Tiruchirappalli and its neighbouring areas came under the control of Mahendra Varma Pallava I, who ascended the throne in A.D. 590. Till A.D. 880, according to the inscriptions, this region was under the hegemony of either the Pallvas or the Pandyas. It was in 880 AD, Aditya Chola brought a downfall to the Pallava dynasty. From that time onwards Tiruchirappalli and its region became a part of Greater Cholas. In 1225 A.D the area was occupied by the Hoysulas. Afterwards, it came under the rule of later Pandyas till the advent of Mughal Rule.Tiruchirappalli was for some time under the Mughal rule, which was put to an end by the Vijayanagar rulers.
+            </p>
+            <button class="btn btn--secondary">Read More</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION TOURS -->
+      <section class="section-tours" id="tours">
+        <div class="container tour-box" data-aos="fade-up">
+          <header class="tour-box__heading">
+            <h2 class="heading heading--2 color-blue margin-bottom">
+              our top tours
+            </h2>
+            <p>
+              
+             Tiruchirappalli, also called Tiruchi or Trichy, is a major tier II city in the Indian state of Tamil Nadu and the administrative headquarters of Tiruchirappalli district.
+            </p>
+          </header>
+
+          <article class="tour-box__cards">
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/bf.jpg"
+                alt="england"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">BUTTERFLY PARK</h3>
+                </div>
+
+                <div class="t-card__description">
+                  Butterfly Park is butterfly conservatory located in Srirangam Town in Trichy District of Tamilnadu. The butterfly park is in a serene location between the banks of rivers Cauvery and Kollidam near Srirangam. This Park is considered as one of the biggest butterfly parks in Asia. The park spreads over 35 acres and built at a cost of approximately 8 crores. It is exactly situated near river bank of Cauvery near Melur, Srirangam. There is no public or private transport available after Melur.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">5 Days</div>
+                  <div class="likes">
+                    <img
+                      src="img/heart.svg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.9k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/makk.jpg"
+                alt="france"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">MUKKOMBU</h3>
+                  <!--<p class="price">Rs/-500</p>-->
+                </div>
+
+                <div class="t-card__description">
+                    In addition to beautiful temples, Trichy also has something for your children. Mukkombu is a picnic spot located at a distance of about 18 km from the city.Mukkombu has its own amusement park, Gardens and fishing areas, to keep your entire family entertained. The upper dam constructed across the river of Kaveri can also be visited and is equally majestic. boating and fishing facilities are also available at the dam.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">6 Days</div>
+                  <div class="likes">
+                    <img
+                      src="img/heart.svg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.9k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/sri.jpg"
+                alt="ITALY"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">SRI RANGANATHASWAMY TEMPLE</h3>
+                </div>
+
+                <div class="t-card__description">
+                  Sri Ranganathaswamy Temple is situated in Srirangam Town of Trichy. The temple is devoted to Lord Ranganatha, a reclining form of Lord Vishnu. The temple complex along with the surrounding area covers a total area of 156 acres.It has been constructed in Dravidian style of architecture The temple is the largest functional temple in the world. The outstanding architecture of the temple includes 21 surrounding 'gopurams' along with an ornate gateway, which is also the tallest 'gopuram' of India.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">3 Days</div>
+                  <div class="likes">
+                    <img
+                      src="img/heart.svg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.8k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/ch.jpg"
+                alt="india"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">ST. JOSEPH'S CHURCH</h3>
+                </div>
+
+                <div class="t-card__description">
+                  Built in 1792, the St. Joseph's Church is one of the most beautiful churches in all South India. It is also one of the oldest Churches of India. It was built by Schwartz.The church was built during the time of mass conversions to Christianity, as initiated by the British under their rule in India.  It is situated near the Teppakulam, in the centre of the town. The church is located close to the famous Maingaurd Gate, which has been a part of many historical events associated with the colonial rule.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">7 Days</div>
+                  <div class="likes">
+                    <img
+                      src="img/heart.svg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.8k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/Samayapuram.jpg"
+                alt="spain"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">SAMAYAPURAM AMMAN TEMPLE</h3>
+                </div>
+
+                <div class="t-card__description">
+                  The beautiful temple is located at about 20 km from the main city of Trichy. The Goddess worshipped here, Goddess Mariamman is believed to be the goddess of power.Mariamman is also believed to bring health and prosperity to its devotees. A strong belief is that this deity cures small pox as well as chicken pox. This temple has individual shrines for processional images of Mariamman and moolavar.The place is especially known for the annual festival of Thai Poosam, which is celebrated with a lot of fanfare.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">5 Days</div>
+                  <div class="likes">
+                    <img
+                      src="img/heart.svg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.7k
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="t-card" data-aos="flip-left" data-aos-duration="1000">
+              <img
+                src="img/rock.jpg"
+                alt="maldives"
+                width="500"
+                height="500"
+                class="t-card__img"
+              />
+
+              <div class="t-card__content">
+                <div class="t-card__title">
+                  <h3 class="name">ROCKDORT TEMPLE</h3>
+                </div>
+
+                <div class="t-card__description">
+                  By far the most popular place in all of Trichy is the Rockfort Ganpathi Temple. It derives its name from it's unique building style. The temple structure comprises a huge rock, which is believed to be the oldest rock in the world, even older than The Himalayan Mountains.After climbing 344 steps, the devotees reach the main temple area. The temple has two sub parts- the Thayumanaswamy, which is dedicated to Lord Shiva and the Pillayar, which is dedicated to Lord Ganesha. The origins of the temple are traced back to the 7th century. The Shiva temple contains the Lingam form of the Lord.
+                </div>
+
+                <div class="t-card__items">
+                  <div class="days">2 Days</div>
+                  <div class="likes">
+                    <img
+                      src="img/heart.svg"
+                      alt="heart"
+                      width="20"
+                      height="20"
+                    />
+                    4.8k
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION OFFER -->
+      <section class="section-offer" id="offers">
+        <div class="container offer-box">
+          <div class="offer-box__percentage" data-aos="zoom-in">50%</div>
+          <div class="offer-box__content" data-aos="fade-up">
+            <h2 class="heading heading--2">
+              
+            </h2>
+            <p>
+              Get the most out of your holiday with our exclusive packages, including a stay at our tamilnadu hotels and access to some of the most sought-after experiences.
+            </p>
+            <button class="btn">book Now</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION REVIEW -->
+      <section class="section-review">
+        <div class="container review-box" data-aos="fade-up">
+          <header class="review-header">
+            <h3 class="color-blue">Our Reviews</h3>
+            <h2 class="heading heading--2">What the people say about us</h2>
+          </header>
+
+          <article class="review-cards">
+            <div class="r-card">
+              <img
+                src="img/user-1.jpg"
+                alt=""
+                class="r-card__img"
+                width="90"
+                height="90"
+              />
+              <div class="r-card__name">Andrew</div>
+              <span class="quot">&#8223;</span>
+              <div class="r-card__description">
+                It was an great experince to explore the tamilnadu culture.
+              </div>
+              <div class="r-card__rating">
+                <img
+                  src="img/star-grp.svg"
+                  alt="star"
+                  width="100"
+                  height="30"
+                />
+              </div>
+            </div>
+
+            <div class="r-card">
+              <img
+                src="img/user-2.jpg"
+                alt=""
+                class="r-card__img"
+                width="90"
+                height="90"
+              />
+              <div class="r-card__name">Emily Leena</div>
+              <span class="quot">&#8223;</span>
+              <div class="r-card__description">
+                Really an awesome trip drive after a long gap and pleasure to expore more in future.
+              </div>
+              <div class="r-card__rating">
+                <img
+                  src="img/star-grp.svg"
+                  alt="star"
+                  width="100"
+                  height="30"
+                />
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- SECTION FOOTER -->
+    <footer class="section-footer">
+      <div class="footer-box container">
+        <div class="contact-details">
+          <h2 class="heading heading--2 margin-bottom">Tourism</h2>
+          <ul class="contact-data">
+            <li class="location">100 Nallin Street,Chennai</li>
+            <li class="phone">+00 000 000 00</li>
+            <li class="email">Tourism@.com</li>
+            <li class="social">
+              <img
+                src="./img/logo-whatsapp.svg"
+                alt="whatsapp icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-facebook.svg"
+                alt="facebook icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-instagram.svg"
+                alt="instagram icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-twitter.svg"
+                alt="twitter icon"
+                width="35"
+                height="35"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Quick Links</div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#offers">Offeres</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Popular Destination</div>
+          <ul>
+            <li><a href="#tours">Butterfly Park</a></li>
+            <li><a href="#tours">MUKKOMBU</a></li>
+            <li><a href="#tours">SRI RANGANATHASWAMY TEMPLE</a></li>
+            <li><a href="#tours">ST. JOSEPH'S CHURCH</a></li>
+            <li><a href="#tours">SAMAYAPURAM AMMAN TEMPLE</a></li>
+            <li><a href="#tours">ROCKDORT TEMPLE</a></li>
+          </ul>
+        </nav>
+
+        <div class="newsletter">
+          <div class="newsletter__title">News Letter</div>
+          <div class="newsletter__text">
+            CONTACT US ASAP WILL WORK 24/7 hrs.
+          </div>
+          <form class="newsletter__input">
+            <input type="text" placeholder="example@domine.com" />
+            <img
+              src="./img/send.svg"
+              alt="send icon"
+              class="send-icon"
+              width="36"
+              height="36"
+            />
+          </form>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="index.js"></script>
+  </body>
+</html>
